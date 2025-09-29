@@ -30,7 +30,7 @@ def rescaleFrame(frame, scale=0.75):
 
 
 # read videos
-capture = cv.VideoCapture('Videos/dog.mp4')
+capture = cv.VideoCapture('../Resources/Videos/dog.mp4')
 
 while True:
   isTrue, frame = capture.read()

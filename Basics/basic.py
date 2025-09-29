@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # Read in an image
-img = cv.imread('./Resources/Photos/park.jpg')
+img = cv.imread('../Resources/Photos/park.jpg')
 
 if img is None:
     print("Error: Could not load image.")
